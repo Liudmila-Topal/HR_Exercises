@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d615bec3-4403-49b0-b12d-e6445b729542" name="Changes" comment="First week exercises">
-      <change afterPath="$PROJECT_DIR$/src/test/java/exersices/firstWeek/exercises/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exersices/secondWeek/exercises/LonelyInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exersices/secondWeek/exercises/StudentsGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exersices/secondWeek/tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,32 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="DivisibleSumPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exersices.firstWeek.exercises.DivisibleSumPairs" />
-      <module name="HR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exersices.firstWeek.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.Tests.studentsGrade">
     <configuration name="SparseArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exersices.firstWeek.exercises.SparseArrays" />
       <module name="HR" />
@@ -90,17 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.divisibleSumPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.lonelyInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exersices.firstWeek.tests.*" />
+          <option name="PATTERN" value="exersices.secondWeek.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exersices.firstWeek.tests" />
-      <option name="MAIN_CLASS_NAME" value="exersices.firstWeek.tests.Tests" />
-      <option name="METHOD_NAME" value="divisibleSumPairs" />
+      <option name="PACKAGE_NAME" value="exersices.secondWeek.tests" />
+      <option name="MAIN_CLASS_NAME" value="exersices.secondWeek.tests.Tests" />
+      <option name="METHOD_NAME" value="lonelyInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,13 +114,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.studentsGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exersices.secondWeek.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exersices.secondWeek.tests" />
+      <option name="MAIN_CLASS_NAME" value="exersices.secondWeek.tests.Tests" />
+      <option name="METHOD_NAME" value="studentsGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.studentsGrade" />
+        <item itemvalue="JUnit.Tests.lonelyInteger" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Tests.sparseArrays" />
         <item itemvalue="Application.SparseArrays" />
-        <item itemvalue="JUnit.Tests.divisibleSumPairs" />
-        <item itemvalue="Application.DivisibleSumPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +153,7 @@
       <workItem from="1709827112923" duration="2348000" />
       <workItem from="1710503694054" duration="11852000" />
       <workItem from="1710763350652" duration="10398000" />
+      <workItem from="1710956077804" duration="3375000" />
     </task>
     <task id="LOCAL-00001" summary="First week exercises">
       <option name="closed" value="true" />
@@ -221,6 +230,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/exersices/firstWeek/exercises/DivisibleSumPairs.java</url>
           <line>16</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/exersices/secondWeek/exercises/StudentsGrade.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
