@@ -1,3 +1,5 @@
+package exersices.firstWeek.exercises;
+
 public class PlusMinus {
     public static void main(String[] args) {
         int arr[] = {4, -2, 3, 7, 0, -9};
